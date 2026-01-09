@@ -30,8 +30,8 @@ jobs:
     - name: Job Summary
       run: |
         echo "## Lab 2 – ML Training Results" >> $GITHUB_STEP_SUMMARY
-        echo "**Name:** Your Name" >> $GITHUB_STEP_SUMMARY
-        echo "**Roll No:** Your Roll No" >> $GITHUB_STEP_SUMMARY
+        echo "**Name:** RUPESH REDDY B" >> $GITHUB_STEP_SUMMARY
+        echo "**Roll No:** 2022BCS0083" >> $GITHUB_STEP_SUMMARY
         echo "" >> $GITHUB_STEP_SUMMARY
         grep "MSE" output.txt >> $GITHUB_STEP_SUMMARY
         grep "R2" output.txt >> $GITHUB_STEP_SUMMARY
